@@ -568,7 +568,7 @@ user_id,language,proficiency
 735,eng,
 736,eng,professional_working
 736,tur,full_professional
-736,arapca ,elementary
+736,ara,elementary
 739,eng,professional_working
 739,deu,limited_working
 739,tur,native_or_bilingual
@@ -5316,7 +5316,7 @@ user_id,language,proficiency
 5619,deu,limited_working
 5619,tur,native_or_bilingual
 5621,eng,limited_working
-5621,arapca,elementary
+5621,ara,elementary
 5622,tur,native_or_bilingual
 5622,eng,professional_working
 5623,tur,native_or_bilingual
@@ -21437,7 +21437,7 @@ user_id,language,proficiency
 18414,tur,full_professional
 18415,eng,limited_working
 18418,eng,limited_working
-18418,arapca,elementary
+18418,ara,elementary
 18421,eng,professional_working
 18421,deu,elementary
 18421,tur,native_or_bilingual
@@ -21989,7 +21989,7 @@ user_id,language,proficiency
 18874,eng,limited_working
 18875,eng,
 18877,eng,limited_working
-18877,arapca,elementary
+18877,ara,elementary
 18878,tur,native_or_bilingual
 18878,eng,limited_working
 18878,deu,elementary
@@ -23041,7 +23041,7 @@ user_id,language,proficiency
 19730,eng,limited_working
 19731,eng,professional_working
 19731,tur,full_professional
-19731,arapca ,elementary
+19731,ara,elementary
 19732,eng,full_professional
 19733,eng,
 19735,eng,full_professional
@@ -25230,7 +25230,7 @@ user_id,language,proficiency
 21755,eng,limited_working
 21755,i̇spanyolca,limited_working
 21756,eng,limited_working
-21756,arapca,elementary
+21756,ara,elementary
 21757,tur,
 21757,eng,
 21758,tur,native_or_bilingual
@@ -27736,7 +27736,7 @@ user_id,language,proficiency
 24309,deu,elementary
 24312,tur,native_or_bilingual
 24312,eng,limited_working
-24312,arapca,elementary
+24312,ara,elementary
 24313,tur,native_or_bilingual
 24313,eng,professional_working
 24317,tur,native_or_bilingual
@@ -39176,7 +39176,7 @@ user_id,language,proficiency
 33359,tur,native_or_bilingual
 33359,eng,professional_working
 33359,deu,elementary
-33360,arapca,limited_working
+33360,ara,limited_working
 33360,eng,elementary
 33368,tur,native_or_bilingual
 33368,eng,
@@ -47181,7 +47181,7 @@ user_id,language,proficiency
 40340,tur,
 40341,eng,professional_working
 40341,tur,native_or_bilingual
-40347,arapca,full_professional
+40347,ara,full_professional
 40347,eng,limited_working
 40348,tur,
 40348,eng,professional_working
@@ -72019,7 +72019,7 @@ user_id,language,proficiency
 62992,eng,full_professional
 62993,eng,professional_working
 62996,eng,limited_working
-62996,arapca,elementary
+62996,ara,elementary
 62997,eng,professional_working
 62999,tur,native_or_bilingual
 62999,eng,
