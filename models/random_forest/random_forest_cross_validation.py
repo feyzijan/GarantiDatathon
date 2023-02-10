@@ -15,6 +15,7 @@ from tqdm import tqdm
 
 
 # Get data (only train data)
+# get path to train.csv, go back 2 directories to get to the root of the project
 path = os.path.join('PreparedData', 'train.csv')
 df = pd.read_csv(path)
 
