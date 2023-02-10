@@ -13,39 +13,21 @@ import matplotlib.pyplot as plt
 # progress bar
 from tqdm import tqdm
 
-
-# Get data (only train data)
-# get path to train.csv, go back 2 directories to get to the root of the project
-path = os.path.join('PreparedData', 'train.csv')
-df = pd.read_csv(path)
-
-
-# Feature Engineering (one hot encode)
-df = pd.get_dummies(df, drop_first=True)
-
-
-# Test train split
-X_train, X_test, y_train, y_test = train_test_split(df.drop('moved_after_2019', axis=1), df['moved_after_2019'], test_size=0.1, random_state=42)
-
-
-rf_model = RandomForestClassifier(n_estimators=550, max_depth=12, random_state=40)
-rf_model.fit(X_train, y_train)
-
-
-rf_model.score(X_test, y_test)
-
+# Go two levels up
+os.chdir('../..')
 
 # Load df_train
 path = os.path.join('PreparedData', 'train.csv')
 df_train = pd.read_csv(path)
 df_train = pd.get_dummies(df_train, drop_first=True)
 
-path = os.path.join('PreparedData', 'test.csv')
-df_test = pd.read_csv(path)
-df_test = pd.get_dummies(df_test, drop_first=True)
+# Make user_id the index
+df_train = df_train.set_index('user_id')
 
+# Show collumns
+print(df_train.columns)
 
-
+# Drop the target variable from the training set
 X = df_train.drop('moved_after_2019', axis=1).values
 y = df_train['moved_after_2019'].values
 # Split the data into training and testing sets
@@ -59,8 +41,8 @@ results = {}
 
 
 # Initialize the Random Forest Classifier
-n_estimators_list = [100, 250, 500, 1000, 2000]
-max_depth_list = [3, 5, 7, 10, 14, 18, 26, 42]
+n_estimators_list = [100, 250, 500, 1000, 2000, 3000, 5000]
+max_depth_list = [3, 5, 7, 10, 14, 18, 20, 22, 24, 26, 28, 30, 42, 50, 85]
 
 for n_estimators in tqdm(n_estimators_list):
     for max_depth in max_depth_list:
@@ -107,7 +89,7 @@ for n_estimators in tqdm(n_estimators_list):
         print("=============================================")
 
 # Save ALL the results to a file, nicely formatted
-with open("results.txt", "w") as f:
+with open("results2.txt", "w") as f:
     for key, value in results.items():
         f.write("n_estimators: " + str(key[0]) + "\n")
         f.write("max_depth: " + str(key[1]) + "\n")
@@ -119,8 +101,8 @@ with open("results.txt", "w") as f:
 
 # Top 3 results based on mean validation accuracy
 sorted_results = sorted(results.items(), key=lambda x: x[1][0], reverse=True)
-# Print with colors, the title
-print("\033[1m" + "* Top results based on mean validation accuracy *" + "\033[0m")
+# Print with green color, the title
+print("\033[92m" + "Top 3 results based on mean validation accuracy" + "\033[0m")
 breaker = 0
 for i in range(len(sorted_results)):
     if breaker == 3:
