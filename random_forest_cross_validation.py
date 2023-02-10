@@ -58,8 +58,10 @@ results = {}
 
 
 # Initialize the Random Forest Classifier
-n_estimators_list = [200, 300, 500, 600, 800, 1000, 1250]
-max_depth_list = [3, 5, 7, 10, 20, 25, 30, 42]
+n_estimators_list = [100, 250, 500, 1000, 2000]
+max_depth_list = [3, 5, 7, 10, 14, 18, 26, 42]
+n_estimators_list = [100]
+max_depth_list = [3,2]
 
 
 
@@ -110,21 +112,29 @@ for n_estimators in tqdm(n_estimators_list):
 # Save ALL the results to a file, nicely formatted
 with open("results.txt", "w") as f:
     for key, value in results.items():
-        f.write("n_estimators: %s, max_depth: %s, mean validation accuracy: %s, mean training accuracy: %s, mean loss: %s", 
-                key[0], key[1], value[0], value[1], value[2])
+        f.write("n_estimators: " + str(key[0]) + "\n")
+        f.write("max_depth: " + str(key[1]) + "\n")
+        f.write("Mean validation accuracy: " + str(value[0]) + "\n")
+        f.write("Mean training accuracy: " + str(value[1]) + "\n")
+        f.write("Mean loss: " + str(value[2]) + "\n")
+        f.write("=============================================" + "\n")
 
 
 # Top 3 results based on mean validation accuracy
 sorted_results = sorted(results.items(), key=lambda x: x[1][0], reverse=True)
 # Print with colors, the title
-print("\033[1m" + "* Top 3 results based on mean validation accuracy *" + "\033[0m")
-for i in range(3):
+print("\033[1m" + "* Top results based on mean validation accuracy *" + "\033[0m")
+breaker = 0
+for i in range(len(sorted_results)):
+    if breaker == 3:
+        break
     print("n_estimators:", sorted_results[i][0][0])
     print("max_depth:", sorted_results[i][0][1])
     print("Mean validation accuracy:", sorted_results[i][1][0])
     print("Mean training accuracy:", sorted_results[i][1][1])
     print("Mean loss:", sorted_results[i][1][2])
     print("=============================================")
+    breaker += 1
 
 
 
