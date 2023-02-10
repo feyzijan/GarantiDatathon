@@ -10,6 +10,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, log_loss
 import matplotlib.pyplot as plt
 
+# progress bar
+from tqdm import tqdm
+
+
 # Get data (only train data)
 path = os.path.join('PreparedData', 'train.csv')
 df = pd.read_csv(path)
@@ -57,7 +61,9 @@ results = {}
 n_estimators_list = [200, 300, 500, 600, 800, 1000, 1250]
 max_depth_list = [3, 5, 7, 10, 20, 25, 30, 42]
 
-for n_estimators in n_estimators_list:
+
+
+for n_estimators in tqdm(n_estimators_list):
     for max_depth in max_depth_list:
         # Show information
         print("Performing cross validation with the following parameters:")
