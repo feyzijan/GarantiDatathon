@@ -60,10 +60,6 @@ results = {}
 # Initialize the Random Forest Classifier
 n_estimators_list = [100, 250, 500, 1000, 2000]
 max_depth_list = [3, 5, 7, 10, 14, 18, 26, 42]
-n_estimators_list = [100]
-max_depth_list = [3,2]
-
-
 
 for n_estimators in tqdm(n_estimators_list):
     for max_depth in max_depth_list:
