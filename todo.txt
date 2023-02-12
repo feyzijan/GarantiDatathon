@@ -1,0 +1,4 @@
+Data quality
+- Add grouping for industry
+- Improve edu, field, degree, string grouping
+- Add accurate location data if worthwile
