@@ -1,0 +1,240 @@
+n_estimators: 100
+max_depth: 3
+Mean validation accuracy: 0.6128495143110835
+Mean training accuracy: 0.6129723555580091
+Mean loss: 0.6536147052431093
+=============================================
+n_estimators: 100
+max_depth: 5
+Mean validation accuracy: 0.6266416632231485
+Mean training accuracy: 0.630526422154509
+Mean loss: 0.6468538844078218
+=============================================
+n_estimators: 100
+max_depth: 7
+Mean validation accuracy: 0.6387366774202262
+Mean training accuracy: 0.6463410483231128
+Mean loss: 0.6394110894041571
+=============================================
+n_estimators: 100
+max_depth: 10
+Mean validation accuracy: 0.6515150145728354
+Mean training accuracy: 0.6758798622580688
+Mean loss: 0.6257098863684256
+=============================================
+n_estimators: 100
+max_depth: 14
+Mean validation accuracy: 0.6743368239879197
+Mean training accuracy: 0.7468977205962826
+Mean loss: 0.6012905177684147
+=============================================
+n_estimators: 100
+max_depth: 18
+Mean validation accuracy: 0.6973240945881901
+Mean training accuracy: 0.8386262736341902
+Mean loss: 0.5742436731034924
+=============================================
+n_estimators: 100
+max_depth: 26
+Mean validation accuracy: 0.7140163472338072
+Mean training accuracy: 0.9640352605711188
+Mean loss: 0.5422935158249312
+=============================================
+n_estimators: 100
+max_depth: 42
+Mean validation accuracy: 0.7090179041820373
+Mean training accuracy: 0.9979174044290102
+Mean loss: 0.5682308616624846
+=============================================
+n_estimators: 250
+max_depth: 3
+Mean validation accuracy: 0.6125430550937332
+Mean training accuracy: 0.6129068617030695
+Mean loss: 0.6536064579988989
+=============================================
+n_estimators: 250
+max_depth: 5
+Mean validation accuracy: 0.6277969899593792
+Mean training accuracy: 0.6303928125274036
+Mean loss: 0.6466460305303474
+=============================================
+n_estimators: 250
+max_depth: 7
+Mean validation accuracy: 0.6386657615133292
+Mean training accuracy: 0.6469330843971144
+Mean loss: 0.63927436268375
+=============================================
+n_estimators: 250
+max_depth: 10
+Mean validation accuracy: 0.6514441764855571
+Mean training accuracy: 0.6755497952217934
+Mean loss: 0.6256751517980368
+=============================================
+n_estimators: 250
+max_depth: 14
+Mean validation accuracy: 0.6732995329377651
+Mean training accuracy: 0.747618111002729
+Mean loss: 0.6009337368054071
+=============================================
+n_estimators: 250
+max_depth: 18
+Mean validation accuracy: 0.697795631451177
+Mean training accuracy: 0.8387598793497274
+Mean loss: 0.5733473573852511
+=============================================
+n_estimators: 250
+max_depth: 26
+Mean validation accuracy: 0.7163266949863376
+Mean training accuracy: 0.9655232034349289
+Mean loss: 0.5403694435005867
+=============================================
+n_estimators: 250
+max_depth: 42
+Mean validation accuracy: 0.7105974923628382
+Mean training accuracy: 0.9981374512700792
+Mean loss: 0.5557852643031682
+=============================================
+n_estimators: 500
+max_depth: 3
+Mean validation accuracy: 0.6126844978094333
+Mean training accuracy: 0.613184540902088
+Mean loss: 0.6534850564317252
+=============================================
+n_estimators: 500
+max_depth: 5
+Mean validation accuracy: 0.626830370240177
+Mean training accuracy: 0.6303823348776035
+Mean loss: 0.646646486100878
+=============================================
+n_estimators: 500
+max_depth: 7
+Mean validation accuracy: 0.6387365051053562
+Mean training accuracy: 0.6467942388273171
+Mean loss: 0.6392749842248696
+=============================================
+n_estimators: 500
+max_depth: 10
+Mean validation accuracy: 0.651892228499301
+Mean training accuracy: 0.6761601617273374
+Mean loss: 0.6253629990008882
+=============================================
+n_estimators: 500
+max_depth: 14
+Mean validation accuracy: 0.6737002483891061
+Mean training accuracy: 0.7478145911264436
+Mean loss: 0.6006986540473488
+=============================================
+n_estimators: 500
+max_depth: 18
+Mean validation accuracy: 0.6977013307488326
+Mean training accuracy: 0.8390349398568476
+Mean loss: 0.5733809169775582
+=============================================
+n_estimators: 500
+max_depth: 26
+Mean validation accuracy: 0.7173404789530726
+Mean training accuracy: 0.9660785636171896
+Mean loss: 0.5394767164164073
+=============================================
+n_estimators: 500
+max_depth: 42
+Mean validation accuracy: 0.7107625700084745
+Mean training accuracy: 0.9981688878565521
+Mean loss: 0.5537852423779961
+=============================================
+n_estimators: 1000
+max_depth: 3
+Mean validation accuracy: 0.6129202412274777
+Mean training accuracy: 0.613100714145142
+Mean loss: 0.6535243291896258
+=============================================
+n_estimators: 1000
+max_depth: 5
+Mean validation accuracy: 0.6266417855111209
+Mean training accuracy: 0.6304792606525836
+Mean loss: 0.6466537280007645
+=============================================
+n_estimators: 1000
+max_depth: 7
+Mean validation accuracy: 0.6389723819284613
+Mean training accuracy: 0.6469042599832594
+Mean loss: 0.6393008880629065
+=============================================
+n_estimators: 1000
+max_depth: 10
+Mean validation accuracy: 0.6514206638435932
+Mean training accuracy: 0.6759191551947317
+Mean loss: 0.6254307356381859
+=============================================
+n_estimators: 1000
+max_depth: 14
+Mean validation accuracy: 0.6741717463422834
+Mean training accuracy: 0.74775171575753
+Mean loss: 0.6006865445784462
+=============================================
+n_estimators: 1000
+max_depth: 18
+Mean validation accuracy: 0.6992809411638101
+Mean training accuracy: 0.8397134258402532
+Mean loss: 0.5730108531075838
+=============================================
+n_estimators: 1000
+max_depth: 26
+Mean validation accuracy: 0.7180239797820185
+Mean training accuracy: 0.9662226451296789
+Mean loss: 0.5392650193331155
+=============================================
+n_estimators: 1000
+max_depth: 42
+Mean validation accuracy: 0.7110454999082284
+Mean training accuracy: 0.9981322125824272
+Mean loss: 0.5519654686716379
+=============================================
+n_estimators: 2000
+max_depth: 3
+Mean validation accuracy: 0.6128259405251335
+Mean training accuracy: 0.6131662066276016
+Mean loss: 0.6535085836154128
+=============================================
+n_estimators: 2000
+max_depth: 5
+Mean validation accuracy: 0.6269718740998633
+Mean training accuracy: 0.6304399657944488
+Mean loss: 0.646597683746349
+=============================================
+n_estimators: 2000
+max_depth: 7
+Mean validation accuracy: 0.6390901897142253
+Mean training accuracy: 0.6468911683079932
+Mean loss: 0.639236946668267
+=============================================
+n_estimators: 2000
+max_depth: 10
+Mean validation accuracy: 0.6515150034557469
+Mean training accuracy: 0.6759453530249283
+Mean loss: 0.625449259357442
+=============================================
+n_estimators: 2000
+max_depth: 14
+Mean validation accuracy: 0.6735117081284038
+Mean training accuracy: 0.7477831496676669
+Mean loss: 0.6006427077769091
+=============================================
+n_estimators: 2000
+max_depth: 18
+Mean validation accuracy: 0.6987151313912002
+Mean training accuracy: 0.840014676423058
+Mean loss: 0.5730493740489472
+=============================================
+n_estimators: 2000
+max_depth: 26
+Mean validation accuracy: 0.7174583756755439
+Mean training accuracy: 0.9663719605947645
+Mean loss: 0.5390863083942559
+=============================================
+n_estimators: 2000
+max_depth: 42
+Mean validation accuracy: 0.71189428960749
+Mean training accuracy: 0.9981715070288182
+Mean loss: 0.5518588246246141
+=============================================
